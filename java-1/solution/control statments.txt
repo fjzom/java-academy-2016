@@ -1,0 +1,69 @@
+1.From following code, provide the correct output;
+int th = 0;
+int daf = 4;
+for (int i=1; i<25;i++){
+th = ++th;
+if(th > daf)
+break;
+System.out.println(“Fishing for hour ”+ i);
+}
+
+Fishing for hour 1
+Fishing for hour 2
+Fishing for hour 3
+Fishing for hour 4
+
+2.From following code, provide the correct output:
+Int tdc = 0;
+Int daf = 5;
+for (int i=1; i<8; ++i){
+System.out.println(“\nDay ”+ i + “: camping”);
+tdc = ++tdc;
+if(tdc > daf)
+continue;
+System.out.println(“and Fishing“);
+}
+
+
+Day 1: camping
+and Fishing
+
+Day 2: camping
+and Fishing
+
+Day 3: camping
+and Fishing
+
+Day 4: camping
+and Fishing
+
+Day 5: camping
+and Fishing
+
+Day 6: camping
+
+Day 7: camping
+
+3.Decode a code with a return statement.
+    public static int decode(int[] code) {
+
+        int countOnes = 0;
+        int sum = 0;
+        for (int i = 0; i < code.length; i++) {
+            if (code[i] == 1) {
+                sum += Math.pow(2, countOnes);
+            }
+            countOnes++;
+        }
+        return sum;
+    }
+	
+Flow control Statements.
+
+3.What is the value of b at the end of this code:
+foo () {
+int b = 1;
+b++;
+}
+
+two
