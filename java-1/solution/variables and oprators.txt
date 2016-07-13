@@ -1,0 +1,85 @@
+1.How to declare primitive and non-primitive data types
+int number =1;
+Person personObj = new Person();
+
+
+Variables Scopes
+Exercise:
+
+2.-Declare a variable with a Class Level scope.
+
+class Person}{
+
+int number = 0;
+
+}
+
+3.-Declare a method scope variable
+
+class Person}{
+
+int number = 0;
+
+public void method(){
+
+int number = 0;
+
+}
+
+}
+
+
+4.-Declare a variable with a Loop level Scope
+
+class Person}{
+
+int number = 0;
+
+public void method(){
+
+int number = 0;
+
+
+
+}
+
+}
+
+
+Primitive Types
+
+5.-Declare correctly all primitive Java variables:
+Operators
+
+byte
+shot
+intlong
+float
+doble
+char
+String
+boolean
+
+6.-Mention and declare the five types of operators allowed in Java:
+Strings
+Arithmetic Operators
+
+Relational Operators
+
+Bitwise Operators
+
+Logical Operators
+
+Assignment Operators
+
+Misc Operators
+
+7.-Declare two different ways to create Strings 
+String String = new String("String");
+String String = "String";
+
+Arrays
+
+1.- Declare the different ways to initialize and assign a value to a one dimensional Arrays.
+String[] array = new String[2];
+String[] array = {"Hola", "Mundo"};
