@@ -1,0 +1,10 @@
+GENERICS
+
+Elimiation of casts. Re-write the following code to use generics, the code does not require casting:
+List list = new ArrayList();
+list.add("hello");
+String s = (String) list.get(0);     
+
+
+
+ 
